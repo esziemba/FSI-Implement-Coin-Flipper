@@ -82,7 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
         let headsPercentTotal = document.querySelector('#heads-percent')
         headsPercentTotal.textContent = headsPercent
 
-        
     })
 
 })
