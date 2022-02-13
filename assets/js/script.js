@@ -34,8 +34,6 @@ let message = document.createElement('h3')
 message.setAttribute('id', 'message')
 message.textContent = 'Let\'s Get Flipping'
 game.append(message)
-
-document.addEventListener('DOMContentLoaded', function () {
     let total = 0
 
     flip.addEventListener('click', function () {
@@ -81,7 +79,4 @@ document.addEventListener('DOMContentLoaded', function () {
         tailsPercentTotal.textContent = tailsPercent
         let headsPercentTotal = document.querySelector('#heads-percent')
         headsPercentTotal.textContent = headsPercent
-
     })
-
-})
